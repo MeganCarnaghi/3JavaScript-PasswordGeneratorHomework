@@ -43,6 +43,3 @@ https://megancarnaghi.github.io/Password-Generator/
 
 Here is my GitHub repository URL for this assignment: 
 https://github.com/MeganCarnaghi/Password-Generator.git
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
