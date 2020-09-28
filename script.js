@@ -1,29 +1,29 @@
-// An empty array to push all data into
-var emptyArray = [];
-
 // Arrays for password data
 var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 var symbols = ["!", "#", "@", "$", "%", "&", "+", "=", "*", "^", "~"];
 
-//var for user's final password
-var finalPassword = ""
+// Empty array to hold data
+var emptyArray = []
+
+// Final password variable
+var password = ""
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the password input
+// function to write password
 function writePassword() {
   var password = generatePassword()
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 }
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Function to show prompt list to user
+// Function to show user prompt list and generate password
 function generatePassword() {
 var passwordLength = prompt("How many characters do you want to use in your password? (Please choose a value between 8 and 128.)");
 console.log(passwordLength);
@@ -43,30 +43,26 @@ if(passwordLength < 8 || passwordLength > 128) {
   var pwSymbols = confirm("Would you like to include symbols in your password?");
   console.log(pwSymbols);
 }
-if(pwLowercase === true) {
+
+// If statements to determine which data to push to empty array
+if(pwLowercase) {
   Array.prototype.push.apply(emptyArray, lowercase)}
-  console.log(emptyArray);
 
-if(pwUppercase === true){
+if(pwUppercase) {
   Array.prototype.push.apply(emptyArray, uppercase)}
-  console.log(emptyArray);
 
-
-if(pwNumbers === true) {
+if(pwNumbers) {
   Array.prototype.push.apply(emptyArray, numbers)}
-  console.log(emptyArray);
 
-if(pwSymbols === true) {
+if(pwSymbols) {
   Array.prototype.push.apply(emptyArray, symbols)}
 
-else {
-for (let index=0; index < passwordLength; index++) {
-  let passwordCharacters = Math.floor(Math.random() * emptyArray.length)
-  console.log(passwordCharacters)
-  finalPassword += emptyArray[passwordCharacters]
-  console.log(finalPassword)
+// For loop to run through code and create user's password
 
-  return finalPassword;
+for(let i = 0; i < passwordLength; i++) {
+  const passwordCharacters = Math.floor(Math.random () * emptyArray.length)
+  password += emptyArray[passwordCharacters]
 }
-}
+console.log(password)
+return password;
 }
