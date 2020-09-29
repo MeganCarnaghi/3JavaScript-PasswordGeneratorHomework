@@ -60,7 +60,7 @@ if(pwSymbols) {
 // For loop to run through code and create user's password
 
 for(let i = 0; i < passwordLength; i++) {
-  const passwordCharacters = Math.floor(Math.random () * emptyArray.length)
+  const passwordCharacters = Math.floor(Math.random() * emptyArray.length)
   password += emptyArray[passwordCharacters]
 }
 console.log(password)
