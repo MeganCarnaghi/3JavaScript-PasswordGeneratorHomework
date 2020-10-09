@@ -45,7 +45,7 @@ Here is my GitHub repository URL for this assignment:
 https://github.com/MeganCarnaghi/Password-Generator.git
 
 *Here is an example of a password my code returns in the final product. 
-(Password-Generator-Final-Product.jpg")
+(Password-Generator-Final-Product.jpg)
 
 ## Notes on My Code
 
