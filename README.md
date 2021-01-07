@@ -34,14 +34,11 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Links and Screenshot
 
-You are required to submit the following for review:
-
 URL for my GitHub Repository: https://github.com/MeganCarnaghi/Password-Generator.git
 
-URL for my deployed application: https://megancarnaghi.github.io/Password-Generator/. 
+URL for my deployed application: https://megancarnaghi.github.io/Password-Generator/
 
 
-*Here is an example of a password my code returns in the final product. 
-(Password-Generator-Final-Product.jpg)
+![](screenshots/Password-Generator-Final-Product.jpg)
 
 
