@@ -39,6 +39,6 @@ URL for my GitHub Repository: https://github.com/MeganCarnaghi/Password-Generato
 URL for my deployed application: https://megancarnaghi.github.io/Password-Generator/
 
 
-![](screenshots/Password-Generator-Final-Product.jpg)
+![Password Generator](/Password-Generator-Final-Product.jpg)
 
 
