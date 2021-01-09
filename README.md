@@ -32,6 +32,12 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+
 ## Links and Screenshot
 
 URL for my GitHub Repository: https://github.com/MeganCarnaghi/Password-Generator.git
@@ -40,5 +46,9 @@ URL for my deployed application: https://megancarnaghi.github.io/Password-Genera
 
 
 ![Password Generator](/Password-Generator-Final-Product.jpg)
+
+## License
+
+![license](https://img.shields.io/badge/License-MIT-success)
 
 
